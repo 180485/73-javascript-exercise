@@ -26,6 +26,12 @@
         "cherry",
     ];
 
-    // your code here
-
+    
+    document.getElementById("run").addEventListener("click", function () {
+        // your code here
+        for (var i = 0; i < fruits.length; i++)
+        {
+            console.log(fruits[i]);
+        }
+    });
 })();
