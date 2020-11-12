@@ -23,7 +23,25 @@
         "raisin",
         "cerise",
     ];
-
+   
     // your code here
+  
+    //take off end
+   fruits.pop();
+   //take off front
+   fruits.shift();
+   //add on to end
+   fruits.push ("kiwi");
+   //add on to front 
+    fruits.unshift("banana");
+   
+    document.getElementById("run").addEventListener("click", function() {
+    
+      
+    
+    });
+
+    document.getElementById("post").innerHTML = fruits;  
+      
 
 })();
