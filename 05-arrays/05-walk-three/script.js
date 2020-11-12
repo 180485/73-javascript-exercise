@@ -40,5 +40,10 @@
     ];
 
     // your code here
+    people.forEach(function (firstname) {
+        console.log(firstname);
+    });
+
+
 
 })();
