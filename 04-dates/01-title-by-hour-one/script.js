@@ -10,29 +10,18 @@
 // You will have time to focus on it later.
 
 (function() {
-    var text;
-    var date1 = new Date();
-    var hour = date1.getHours();
-    var minute = date1.getMinutes();
 
 
-    if (hour >= 12 && minute >= 30){ 
-        text = "GOOD EVENING";
-    
-    } else if (hour >= 13) {
-        text = "GOOD EVENING";
-    
-    }else {
+     var currentDate = new Date();
 
-        text = "HELLO";
+    if (currentDate.getHours() < 18) {
+        document.getElementById("target").innerHTML = "Hello!";
+    } else {
+        document.getElementById("target").innerHTML = "Good Evening!!";
     }
 
-    console.log(date1.toString());
-     
-    alert(hour,minute);
-     alert(text);   
-    
-    document.getElementById('target').innerHTML = text;
+
+   
 
     
 
