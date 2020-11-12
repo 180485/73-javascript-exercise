@@ -22,7 +22,7 @@
      
     var months = date2.getMonth()-birthday.getMonth();
      if (months < 0 || (months === 0 && datumVandaag.getDate() < birthday.getDate())){
-        age --;
+        age += 1
     } 
        
      document.getElementById("post").innerHTML = " <h2 style=\"text-align: center;\"> your age is: " + age + " Years old!! </h2>";
