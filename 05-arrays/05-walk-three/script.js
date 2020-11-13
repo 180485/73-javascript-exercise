@@ -39,6 +39,11 @@
         },
     ];
     document.getElementById("run").addEventListener("click", function () {
-       
+        people.forEach(function(value) {
+            console.log(value.firstname);
+          })
+         
+    });
+
        
 })();
