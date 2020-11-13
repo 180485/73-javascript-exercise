@@ -27,10 +27,13 @@
     ];
 
     document.getElementById("run").addEventListener("click", function () {
-       
+        fruits.forEach(function (x) {
+            console.log(x);
+        });
+    });
+})();
     
 
         
 
 
-})();
