@@ -10,6 +10,7 @@
 // You will have time to focus on it later.
 
 (function() {
+    function checkAge(adult){return adult.age > 18};
 
     const people = [
         {
@@ -90,5 +91,14 @@
     ];
 
     // your code here
+    document.getElementById("run").addEventListener("click", function () {
+
+        var x =people.filter(checkAge);
+
+        console.log(x);
+
+
+
+    })
 
 })();
