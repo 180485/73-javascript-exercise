@@ -18,5 +18,11 @@
         city: "Liège",
         status: "married",
     };
-    // your code here
+    for (const [ key ,value] of Object.entries(person)) {
+    document.getElementById("run").addEventListener("click", function () {
+    
+        console.log(`${key}: ${value}`);
+     
+})}
 })();
+
