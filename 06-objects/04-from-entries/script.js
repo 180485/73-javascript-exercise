@@ -14,10 +14,15 @@
     const values = ["Skitty", "cat", 9, "female", "tabby"];
     // your code here
 
- 
- document.getElementById("run").addEventListener("click", function () {
-    for (const [key, value] of Object.entries(obj)) {
-        console.log(`${key} ${value}`);
+    document.getElementById("run").addEventListener("click", function () {
+    console.log(Object.entries(keys));
+    console.log(Object.entries(values));
 
-})
+
+    })
+
+
+
+
+
 })();
