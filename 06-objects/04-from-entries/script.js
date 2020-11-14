@@ -14,14 +14,6 @@
     const values = ["Skitty", "cat", 9, "female", "tabby"];
     // your code here
 
-    document.getElementById("run").addEventListener("click", function () {
-    console.log(Object.entries(keys));
-    console.log(Object.entries(values));
-
-
-    })
-
-
 
 
 

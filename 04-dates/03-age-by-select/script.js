@@ -22,8 +22,8 @@ document.getElementById("dob-day").value);
     var age = date2.getFullYear()- birthday.getFullYear();
      
     var months = date2.getMonth()-birthday.getMonth();
-     if (months < 0 || (months === 0 && datumVandaag.getDate() < birthday.getDate())){
-        age --;
+     if (months < 0 || (months === 0 && today.getDate() < birthday.getDate())){
+        age +1;
     } 
        
      document.getElementById("post").innerHTML = " <h2 style=\"text-align: center;\"> your age is: " + age + " Years old!! </h2>";
