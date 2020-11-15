@@ -10,9 +10,9 @@
 // You will have time to focus on it later.
 
 (function() {
-
-    
-  
+    let date = new Date(98, 1)
+    val = today.getMonth();
+    val = today.getyears();
 
 
 })();
