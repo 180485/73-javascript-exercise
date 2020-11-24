@@ -16,4 +16,4 @@
   })
      
 })();
- //querySelectorAll TO SELECT ALL ELEMENT FROL CLASS NAME "TARGET"
+ //querySelectorAll TO SELECT ALL ELEMENT FROM CLASS NAME "TARGET"

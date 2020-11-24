@@ -11,6 +11,17 @@
 
 (function() {
 
-    // your code here
+    
+    let images = document.getElementById('source');
+    let link = images.getAttribute('data-image');
+
+    // Create a new image element
+    let img = document.createElement('img');
+    img.src = link;
+    document.getElementById('target').appendChild(img); 
+
+
+    //Removing the old element
+    images.remove();
 
 })();
