@@ -10,7 +10,10 @@
 // You will have time to focus on it later.
 
 (function() {
-
-    // your code here
-
+    const paragraph  = document.querySelectorAll('p.target');
+  paragraph.forEach(paragraph => {
+   paragraph.innerHTML = "OWNED";
+  })
+     
 })();
+ //querySelectorAll TO SELECT ALL ELEMENT FROL CLASS NAME "TARGET"
