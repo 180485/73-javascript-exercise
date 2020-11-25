@@ -24,7 +24,7 @@
 
         for (var j = 0; j < 10; j++) {
         var cell = document.createElement("td");
-            cell.innerHTML = (i + 1) * (j + 1g);
+            cell.innerHTML = (i + 1) * (j + 1);
         row.appendChild(cell);
         tableBody.appendChild(row);
 
