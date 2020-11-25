@@ -11,21 +11,32 @@
 
 (function() {
 
-    let table = '';
-    let rows = 10;
-    let cols = 1
     
-    for (let r = 0; r < rows ; r++)
-    {
-        table += '<tr>';
-        for (var c = 1;c < cols; c++)
-    {
-        table += '<td>' + c + '</td>';
-    }
 
-    table += '</tr>';
-    }
-     
+    
+    var myElement = document.getElementById("target");
+
+    // create elemnts for table in body  elment
+    var myTable = document.createElement("table");
+    var tableBody = document.createElement("tBody");
+    
+
+    
+
+    for (var i=0; i < 10 ; i++){
+        var row = document.createElement("tr");
+    
+            var cell = document.createElement("td");
+            row.appendChild(cell);
+            tableBody.appendChild(row);
+
+          }
+         
+            myTable.appendChild(tableBody);
+            myElement.appendChild(myTable);
+      
+           
+
     
 
 })();
