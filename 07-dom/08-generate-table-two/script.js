@@ -22,13 +22,9 @@
     for (var i=0; i < 10 ; i++){
         var row = document.createElement("tr");
 
-        var cell = document.createElement("td");
-        row.appendChild(cell);
-        tableBody.appendChild(row);
-
         for (var j = 0; j < 10; j++) {
         var cell = document.createElement("td");
-            cell.innerHTML = (i + 1) * (j + 1);
+            cell.innerHTML = (i + 1) * (j + 1g);
         row.appendChild(cell);
         tableBody.appendChild(row);
 
