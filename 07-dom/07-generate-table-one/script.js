@@ -11,6 +11,26 @@
 
 (function() {
 
-    // your code here
+    let table = '';
+    let rows = 10;
+    let cols = 1
+    
+    for (let r = 0; r < rows ; r++)
+    {
+        table += '<tr>';
+        for (var c = 1;c < cols; c++)
+    {
+        table += '<td>' + c + '</td>';
+    }
+
+    table += '</tr>';
+    }
+     
+    
 
 })();
+
+
+
+
+   
