@@ -12,14 +12,11 @@
 (function() {
 
     var myElement = document.getElementById("target");
-
-    // create elemnts for table in body  elment
-    
     var myTable = document.createElement("table");
     var tableBody = document.createElement("tBody");
     
 
-    //create elements for row 
+    //create elements for row and cells
 
 
     for (var i=0; i < 10 ; i++){
@@ -29,8 +26,9 @@
         row.appendChild(cell);
         tableBody.appendChild(row);
 
-        for (var j = 0; j < 9; j++) {
+        for (var j = 0; j < 10; j++) {
         var cell = document.createElement("td");
+            cell.innerHTML = (i + 1) * (j + 1);
         row.appendChild(cell);
         tableBody.appendChild(row);
 
