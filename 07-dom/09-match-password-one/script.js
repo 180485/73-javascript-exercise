@@ -23,8 +23,8 @@
         comfirm.style.backgroundColor = good_color
        
     } else {
-        password.style.backgroundColor = bad_color
-        comfirm.style.backgroundColor = bad_color
+        password.style.borderColor = bad_color
+        comfirm.style.borderColor = bad_color
         
     }
 
