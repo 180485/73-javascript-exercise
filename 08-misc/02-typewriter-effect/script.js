@@ -12,24 +12,24 @@
 (function() {
  
  
- var i = 0;
- var text = document.querySelector("#target")
- var speed = 60;
+    let i = 0;
+    let messages = document.getElementById("target");
+    let text = messages.innerHTML;
+    target.innerHTML = ' ';
+    let speed =  85; //speed duration of effect in millisec
+    let delay = 50;
+   
 
- document.getElementById("target").innerHTML = "";
-
+    typeWriter(); //to call function
+    function typeWriter() {
+        if (i < text.length) {
+            target.innerHTML += text.charAt(i);
+            i++;
+            setTimeout(typeWriter, speed , delay);
+        }
+    }
  
-
- function typeWriter() {
-     if (i < text.length) {
-         document.getElementById("target").innerHTML += text.charAt(i);
-         i++;
-         setTimeout(typeWriter, speed);
-     }
- }
-
- 
-
+    
     
 
 })();
