@@ -10,7 +10,26 @@
 // You will have time to focus on it later.
 
 (function() {
+ 
+ 
+ var i = 0;
+ var text = document.querySelector("#target")
+ var speed = 60;
 
-    // your code here
+ document.getElementById("target").innerHTML = "";
+
+ 
+
+ function typeWriter() {
+     if (i < text.length) {
+         document.getElementById("target").innerHTML += text.charAt(i);
+         i++;
+         setTimeout(typeWriter, speed);
+     }
+ }
+
+ 
+
+    
 
 })();
