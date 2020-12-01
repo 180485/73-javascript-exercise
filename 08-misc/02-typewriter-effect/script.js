@@ -9,26 +9,29 @@
 // NOTE: don't focus on the existing code structure for now.
 // You will have time to focus on it later.
 
-(function() {
+(function  () {
  
  
     let i = 0;
     let messages = document.getElementById("target");
     let text = messages.innerHTML;
     target.innerHTML = ' ';
-    let speed =  85; //speed duration of effect in millisec
-    let delay = 50;
+   
    
 
     typeWriter(); //to call function
     function typeWriter() {
         if (i < text.length) {
+            let speed =  100; 
             target.innerHTML += text.charAt(i);
-            i++;
-            setTimeout(typeWriter, speed , delay);
+             i++;
+            setTimeout(typeWriter, speed );
+        }else {
+            let delay = 50;
+            setTimeout( typeWriter,delay);
         }
     }
- 
+    
     
     
 

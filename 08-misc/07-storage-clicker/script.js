@@ -11,6 +11,20 @@
 
 (function() {
 
-    // your code here
+   
 
+   if (typeof(Storage) !=="undefined"){
+    if (localStorage.clickcount) {
+        localStorage.clickcount = Number(localStorage.clickcount)+1;
+      } else {
+        localStorage.clickcount = 1;
+      }
+      document.getElementById("target").innerHTML = "1" + localStorage.clickcount + " time(s).";
+    } else {
+       
+   }
+   let increment = document.getElementById('increment')
+    increment.onclick = function(){
+
+    } 
 })();
