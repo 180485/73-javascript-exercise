@@ -10,26 +10,7 @@
 // You will have time to focus on it later.
 
 (function() {
-  
-  
-  document.getElementsByTagName("img")[0].addEventListener("mouseover", mouseOver);
-    document.getElementsByTagName("img")[0].addEventListener("mouseout", mouseOut);
 
-
-    function mouseOver() {
-        let newImg = document.getElementsByTagName("img")[0];
-        let url = newImg.getAttribute("data-hover");
-        newImg.setAttribute("src",url);
-
-    }
-
-    function mouseOut() {
-        let newImg = document.getElementsByTagName("img")[0];
-        let url = newImg.getAttribute("data-hover");
-        
-
-    }
-
-
+    // your code here
 
 })();

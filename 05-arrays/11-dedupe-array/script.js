@@ -29,12 +29,5 @@
     ];
 
     // your code here
-    document.getElementById("run").addEventListener("click", function (){
-    let unique = [...new Set(fruits)]; 
-    //The simplest approach (in my opinion) is to use the Set object which lets you store unique values of any type. 
-    //In other words, Set will automatically remove duplicates
-    console.log(unique); 
-
-    })
 
 })();

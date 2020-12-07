@@ -26,14 +26,14 @@
         "cherry",
     ];
 
-    document.getElementById("run").addEventListener("click", function () {
-        fruits.forEach(function (x) {
-            console.log(x);
-        });
-    });
+    // your code here
+
+    document.getElementById("run").addEventListener("click", function(){
+        fruits.forEach(myfruits);
+        function myfruits(item){
+            console.log(item);
+        }
+
+    })
+
 })();
-    
-
-        
-
-

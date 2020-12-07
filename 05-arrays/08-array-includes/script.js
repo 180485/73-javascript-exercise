@@ -26,11 +26,31 @@
         "cherry",
     ];
 
-    document.getElementById("run").addEventListener("click", function () {
+    // your code here
+document.getElementById("run").addEventListener("click" , function(){
+
+
+     var n = fruits.includes("apple");
+      console.log(n);
+   
+
     
-    fruits.includes("apple").toString();
-        console.log(fruits.includes("apple"));
-    })
+
+})
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
 
 
 })();

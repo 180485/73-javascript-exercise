@@ -11,18 +11,14 @@
 
 (function() {
 
+    // to change the content of a tag: document.getElementById("element-id").innerHTML = "new-value"
 
-     var currentDate = new Date();
-
-    if (currentDate.getHours() < 18) {
-        document.getElementById("target").innerHTML = "Hello!";
-    } else {
-        document.getElementById("target").innerHTML = "Good Evening!!";
-    }
-
-
-   
-
+    // your code here
+    var d = new Date();
+    var n = d.getHours();
+    if(n < 18 )
+    document.getElementById("target").innerHTML = "Hello good evening"
+    console.log (n);
     
 
 })();

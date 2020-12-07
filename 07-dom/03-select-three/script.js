@@ -10,10 +10,7 @@
 // You will have time to focus on it later.
 
 (function() {
-    const paragraph  = document.querySelectorAll('p.target');
-  paragraph.forEach(paragraph => {
-   paragraph.innerHTML = "OWNED";
-  })
-     
+
+    // your code here
+
 })();
- //querySelectorAll TO SELECT ALL ELEMENT FROM CLASS NAME "TARGET"

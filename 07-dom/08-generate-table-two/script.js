@@ -11,33 +11,6 @@
 
 (function() {
 
-    var myElement = document.getElementById("target");
-    var myTable = document.createElement("table");
-    var tableBody = document.createElement("tBody");
-    
-
-    //create elements for row and cells
-
-
-    for (var i=0; i < 10 ; i++){
-        var row = document.createElement("tr");
-
-        for (var j = 0; j < 10; j++) {
-        var cell = document.createElement("td");
-            cell.innerHTML = (i + 1) * (j + 1);
-        row.appendChild(cell);
-        tableBody.appendChild(row);
-
-
-        }
-      
-
-
-    }
-
-    myTable.appendChild(tableBody);
-    myElement.appendChild(myTable);
-
-    
+    // your code here
 
 })();

@@ -10,20 +10,9 @@
 // You will have time to focus on it later.
 
 (function() {
-  
-  
-  let val ;
 
-  const today = new Date();
-  let settoday = new Date('12-11-2020 16:40');
+    // to change the content of a tag: document.getElementById("element-id").innerHTML = "new-value"
 
-  val = today.toString();
-
-  document.getElementById("target").innerHTML = val;
-
-  console.log(val);
-
-  
-    
+    // your code here
 
 })();

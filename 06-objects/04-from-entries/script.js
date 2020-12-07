@@ -10,23 +10,7 @@
 // You will have time to focus on it later.
 
 (() => {
-    const myMap = new Map();
     const keys = ["name", "species", "age", "gender", "color"];
     const values = ["Skitty", "cat", 9, "female", "tabby"];
     // your code here
-
-  
- myMap.set(keys);
- myMap.set(values);
-
- const myObj = Object.fromEntries(myMap);
-
- console.log(myObj);
-
- 
- 
-
-
-
-
 })();

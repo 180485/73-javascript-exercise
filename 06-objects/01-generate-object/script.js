@@ -10,19 +10,5 @@
 // You will have time to focus on it later.
 
 (() => {
-    
-        var person = {
-             firstName : "Felix",
-             lastName  : "wettinck",
-             age       : 3,
-             city      : "gent",
-             country   :"belgium"
-        };
-  
-        document.getElementById("run").addEventListener("click", function () { 
-           
-        }) 
-        console.log(person.firstName +" " + person.lastName + " " + person.age + " " + person.city + " " + person.country);
-
-   
+    // your code here
 })();

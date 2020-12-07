@@ -10,28 +10,7 @@
 // You will have time to focus on it later.
 
 (function() {
-    document.getElementById("run").addEventListener("click", function (){
 
-    const number_table = document.getElementById('tb_numbers');
-    
-    
-    
-    
-    var arr = [];
-    while(arr.length < 10){
-    var r = Math.floor(Math.random() * 100) + 1;
-    if(arr.indexOf(r) === -1) arr.push(r);
-}
-
-
-console.log(arr);
-
-
-document.getElementById("min").innerHTML = Math.min(...arr);
-document.getElementById("max").innerHTML = Math.max(...arr);
-
-
-    
-    })
+    // your code here
 
 })();

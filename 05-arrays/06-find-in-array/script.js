@@ -89,7 +89,7 @@
         },
     ];
 
-   
+    // your code here
     document.getElementById("run").addEventListener("click", function () {
         
         people.forEach(function (x, index) {
@@ -97,11 +97,16 @@
             {
                 console.log(x.email, index);
             }
-        });
-    });
+        })
+    })
 })();
+        
+        
+        
+            
 
 
-    
+
+   
 
 

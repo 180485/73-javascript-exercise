@@ -14,21 +14,21 @@
     document.getElementById('run').addEventListener('click', run);
        
     function run(){
-            fetch(' http://localhost:3000/heroes')
+            fetch('http://localhost:3000/heroes')
                 .then(response => response.json())
                 .then((data) => {
                     let output = '<h4>Title</h4>'
                     console.log(data);
-                    data.forEach((user) => {
+                    data.forEach((hero) => {
                         output += `
-                            <ul>
+                            <li>
                                
-                                <li> name: ${user.name} </li>
-                                <li> alter-ego: ${user.alterEgo} </li>
-                                <li> power: ${user.abilities}</li>
+                                <strong> name: ${hero.name} </strong><br>
+                                <em> alter-ego: ${hero.alterEgo} </em>
+                                <p> power: ${hero.abilities}</p>
                                 
 
-                            </ul>
+                            </li>
                         `;
                     });
                    
