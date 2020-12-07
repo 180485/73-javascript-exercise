@@ -27,4 +27,20 @@
         user: null,
     };
     // your code here
+    document.getElementById("run").addEventListener("click" ,function (){
+        const defaultProps = {
+            available: true,
+            os: "Windows",
+            user: null,
+        };
+
+
+        const defaultProps = {
+            available: true,
+            os: "macOS",
+            user: null,
+        };
+
+    })
+
 })();
